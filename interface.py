@@ -24,6 +24,7 @@ while True:
         model="bonsai",
         messages=messages,
         temperature=0.9
+        
     )
 
     answer = resp.choices[0].message.content
